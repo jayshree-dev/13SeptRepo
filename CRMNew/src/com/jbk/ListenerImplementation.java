@@ -35,13 +35,13 @@ public class ListenerImplementation implements ITestListener{
 				write.WriteResult(Result, 0);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
-				e.printStackTrace();
+				
 			}
 	}
 
 	@Override
 	public void onTestStart(ITestResult arg0) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub this
 		
 	}
 
